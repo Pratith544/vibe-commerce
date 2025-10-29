@@ -98,13 +98,13 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
 
   return (
     <div>
-      {/* Header */}
+      
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight">Featured Products</h2>
         <p className="mt-2 text-muted-foreground">Discover our curated collection of premium items</p>
       </div>
 
-      {/* Filters */}
+      
       <div className="mb-8 space-y-4 rounded-lg border border-border bg-muted/30 p-6">
         <div className="flex items-center justify-between">
           <h3 className="font-semibold">Filters</h3>
@@ -120,7 +120,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Search */}
+          
           <div>
             <label className="block text-sm font-medium mb-2">Search</label>
             <div className="relative">
@@ -138,7 +138,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
             </div>
           </div>
 
-          {/* Category */}
+          
           <div>
             <label className="block text-sm font-medium mb-2">Category</label>
             <select
@@ -158,7 +158,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
             </select>
           </div>
 
-          {/* Min Price */}
+          
           <div>
             <label className="block text-sm font-medium mb-2">Min Price</label>
             <input
@@ -173,7 +173,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
             />
           </div>
 
-          {/* Max Price */}
+          
           <div>
             <label className="block text-sm font-medium mb-2">Max Price</label>
             <input
@@ -190,7 +190,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
         </div>
       </div>
 
-      {/* Products Grid */}
+      
       {loading ? (
         <div className="flex items-center justify-center py-20">
           <Loader2 className="h-8 w-8 animate-spin text-primary" />
@@ -203,7 +203,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
                 key={product._id}
                 className="group flex flex-col overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
               >
-                {/* Product Image */}
+                
                 <div className="relative h-48 w-full overflow-hidden bg-muted">
                   {product.image ? (
                     <img
@@ -221,7 +221,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
                   )}
                 </div>
 
-                {/* Product Info */}
+                
                 <div className="flex flex-1 flex-col p-4">
                   <h3 className="font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-colors">
                     {product.name}
@@ -259,7 +259,7 @@ export default function ProductGrid({ onAddToCart }: ProductGridProps) {
             ))}
           </div>
 
-          {/* Pagination */}
+          
           {totalPages > 1 && (
             <div className="mt-12 flex items-center justify-center gap-2">
               <Button variant="outline" onClick={() => setPage(Math.max(1, page - 1))} disabled={page === 1}>

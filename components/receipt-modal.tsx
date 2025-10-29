@@ -18,7 +18,7 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
       <Card className="w-full max-w-2xl border border-border max-h-[90vh] overflow-y-auto">
         <div className="p-8">
-          {/* Success Header */}
+          
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
               <CheckCircle className="h-16 w-16 text-primary" />
@@ -27,9 +27,9 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
             <p className="text-muted-foreground">Thank you for your purchase. Your order has been received.</p>
           </div>
 
-          {/* Order Details */}
+         
           <div className="space-y-6 border-t border-border pt-6">
-            {/* Order Number */}
+            
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Order Number</p>
@@ -47,7 +47,7 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
               </div>
             </div>
 
-            {/* Customer Info */}
+            
             <div className="grid grid-cols-2 gap-4 bg-muted p-4 rounded-lg">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Customer Name</p>
@@ -59,7 +59,7 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
               </div>
             </div>
 
-            {/* Items */}
+           
             <div>
               <h3 className="font-bold mb-3">Order Items</h3>
               <div className="space-y-2 border-t border-border pt-3">
@@ -74,7 +74,7 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
               </div>
             </div>
 
-            {/* Totals */}
+            
             <div className="bg-muted p-4 rounded-lg space-y-2">
               <div className="flex justify-between text-sm">
                 <span className="text-muted-foreground">Subtotal</span>
@@ -94,14 +94,14 @@ export default function ReceiptModal({ order, onClose }: ReceiptModalProps) {
               </div>
             </div>
 
-            {/* Status */}
+           
             <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
               <p className="text-sm text-muted-foreground mb-1">Status</p>
               <p className="font-semibold text-primary capitalize">{order.status || "Completed"}</p>
             </div>
           </div>
 
-          {/* Actions */}
+         
           <div className="flex gap-3 mt-8 pt-6 border-t border-border">
             <Button onClick={handlePrint} variant="outline" className="flex-1 gap-2 bg-transparent">
               <Download size={18} />
