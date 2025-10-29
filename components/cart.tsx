@@ -122,7 +122,7 @@ export default function Cart({ items, onUpdateQuantity, onRemove, onCheckout, on
                 <p className="text-sm text-muted-foreground">${item.price.toFixed(2)} each</p>
               </div>
 
-              {/* Quantity Controls */}
+             
               <div className="flex items-center gap-2 rounded-lg border border-border bg-muted p-1">
                 <button
                   onClick={() => handleUpdateQuantity(item.productId, item.quantity - 1)}
@@ -143,12 +143,12 @@ export default function Cart({ items, onUpdateQuantity, onRemove, onCheckout, on
                 </button>
               </div>
 
-              {/* Item Total */}
+              
               <div className="text-right">
                 <p className="font-bold text-primary">${(item.price * item.quantity).toFixed(2)}</p>
               </div>
 
-              {/* Remove Button */}
+              
               <button
                 onClick={() => handleRemove(item.productId)}
                 disabled={removing === item.productId}
@@ -162,7 +162,7 @@ export default function Cart({ items, onUpdateQuantity, onRemove, onCheckout, on
         </div>
       </div>
 
-      {/* Order Summary */}
+      
       <div className="lg:col-span-1">
         <Card className="sticky top-24 border border-border p-6 space-y-4">
           <h3 className="text-lg font-bold">Order Summary</h3>
