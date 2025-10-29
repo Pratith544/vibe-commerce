@@ -107,7 +107,7 @@ export default function OrderDetails({ orderId, onBack }: OrderDetailsProps) {
           </Card>
         </div>
 
-        {/* Order Summary */}
+        
         <div className="lg:col-span-1">
           <Card className="border border-border p-6 space-y-4">
             <h3 className="text-lg font-bold">Order Summary</h3>
