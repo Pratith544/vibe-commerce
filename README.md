@@ -64,22 +64,23 @@ The app will start at http://localhost:5173/.
 
  📸 Screenshots
 
- 🏠 Home Page
-<img width="1898" height="925" alt="Home Page" src="https://github.com/user-attachments/assets/0bd06a80-b4f9-4912-878d-ce983a257bb0" />
+ 🏠 Home Page  
+<img src="https://github.com/user-attachments/assets/0bd06a80-b4f9-4912-878d-ce983a257bb0" width="800" />
 
- 🛍️ Product Listing
-<img width="1919" height="920" alt="Product Listing" src="https://github.com/user-attachments/assets/fd43f42e-19e5-4765-bb4f-6adfedeff289" />
+ 🛍️ Product Listing  
+<img src="https://github.com/user-attachments/assets/fd43f42e-19e5-4765-bb4f-6adfedeff289" width="800" />
 
- 🛒 Cart Page
-<img width="1919" height="922" alt="Cart Page" src="https://github.com/user-attachments/assets/43f110bc-3457-48b6-89c9-33754dc2cb07" />
+ 🛒 Cart Page  
+<img src="https://github.com/user-attachments/assets/43f110bc-3457-48b6-89c9-33754dc2cb07" width="800" />
 
- 🧾 Order Confirmation
-<img width="1919" height="923" alt="Order Confirmation" src="https://github.com/user-attachments/assets/3650a230-4432-450a-a38b-46f4fb559fe3" />
+ 🧾 Order Confirmation  
+<img src="https://github.com/user-attachments/assets/3650a230-4432-450a-a38b-46f4fb559fe3" width="800" />
 
- 📱 Responsive View
-<img width="1899" height="937" alt="Responsive View" src="https://github.com/user-attachments/assets/821c803b-2bb7-4c06-be9c-81e602f382e1" />
+ 📱 Responsive View  
+<img src="https://github.com/user-attachments/assets/821c803b-2bb7-4c06-be9c-81e602f382e1" width="800" />
 
-✅ Final Preview
-<img width="1919" height="920" alt="Final Preview" src="https://github.com/user-attachments/assets/ea4df7cf-396b-495a-8240-44261605be07" />
+✅ Final Preview  
+<img src="https://github.com/user-attachments/assets/ea4df7cf-396b-495a-8240-44261605be07" width="800" />
+
 
 
