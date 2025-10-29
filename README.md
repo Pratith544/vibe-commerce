@@ -62,30 +62,24 @@ The app will start at http://localhost:5173/.
 
 🌙 Dark Mode UI: Modern and sleek interface using Tailwind.
 
-## 📸 Screenshots
+ 📸 Screenshots
 
-### 🏠 Home Page
-<img width="1898" height="925" alt="Screens![Uploading Screenshot 2025-10-29 232022.png…]()
-hot 2025-10-29 232022" src="https://github.com/user-attachments/assets/0bd06a80-b4f9-4912-878d-ce983a257bb0" />
+ 🏠 Home Page
+<img width="1898" height="925" alt="Home Page" src="https://github.com/user-attachments/assets/0bd06a80-b4f9-4912-878d-ce983a257bb0" />
 
-### 🛍️ Product Listing
-<img width="1898" height="925" alt="Screenshot 2025-10-29 232033" src="https://gith<img width="1919" height="920" alt="Screenshot 2025-10-29 232033" src="https://github.com/user-attachments/assets/fd43f42e-19e5-4765-bb4f-6adfedeff289" />
-ub.com/user-attachments/assets/PLACEHOLDER_1" />
+ 🛍️ Product Listing
+<img width="1919" height="920" alt="Product Listing" src="https://github.com/user-attachments/assets/fd43f42e-19e5-4765-bb4f-6adfedeff289" />
 
-### 🛒 Cart Page
-<img width="1898" hei<img width="1919" height="922" alt="Screenshot 2025-10-29 232102" src="https://github.com/user-attachments/assets/43f110bc-3457-48b6-89c9-33754dc2cb07" />
-ght="925" alt="Screenshot 2025-10-29 232040" src="https://github.com/user-attachments/assets/PLACEHOLDER_2" />
+ 🛒 Cart Page
+<img width="1919" height="922" alt="Cart Page" src="https://github.com/user-attachments/assets/43f110bc-3457-48b6-89c9-33754dc2cb07" />
 
+ 🧾 Order Confirmation
+<img width="1919" height="923" alt="Order Confirmation" src="https://github.com/user-attachments/assets/3650a230-4432-450a-a38b-46f4fb559fe3" />
 
-### 🧾 Order Confirmation
-<img width="1898"<img width="1919" height="923" alt="Screenshot 2025-10-29 232157" src="https://github.com/user-attachments/assets/3650a230-4432-450a-a38b-46f4fb559fe3" />
- height="925" alt="Screenshot 2025-10-29 232102" src="https://github.com/user-attachments/assets/PLACEHOLDER_4" />
+ 📱 Responsive View
+<img width="1899" height="937" alt="Responsive View" src="https://github.com/user-attachments/assets/821c803b-2bb7-4c06-be9c-81e602f382e1" />
 
-### 📱 Responsive View
-<img width=<img width="1899" height="937" alt="Screenshot 2025-10-29 232052" src="https://github.com/user-attachments/assets/821c803b-2bb7-4c06-be9c-81e602f382e1" />
-"1898" height="925" alt="Screenshot 2025-10-29 232157" src="https://github.com/user-attachments/assets/PLACEHOLDER_5" />
+✅ Final Preview
+<img width="1919" height="920" alt="Final Preview" src="https://github.com/user-attachments/assets/ea4df7cf-396b-495a-8240-44261605be07" />
 
-### ✅ Final Preview
-<img width="1898" he<img width="1919" height="920" alt="Screenshot 2025-10-29 232216" src="https://github.com/user-attachments/assets/ea4df7cf-396b-495a-8240-44261605be07" />
-ight="925" alt="Screenshot 2025-10-29 232216" src="https://github.com/user-attachments/assets/PLACEHOLDER_6" />
 
